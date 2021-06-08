@@ -25,5 +25,6 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
+    - run: alias on_server=""
     - run: npm i
-    - run: nohup npm start
+    - run: nohup npm start &1>&2 /dev/null
