@@ -27,19 +27,17 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: multiple command
-      - uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.HOST_IP }}
-          username: ${{ secrets.HOST_USERNAME }}
-          password: ${{ secrets.HOST_PASSWORD }}
-          port: 22
-          script: |
-            curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
-            sudo yum install -y nodejs
-            cd /home/tmz2-proxy
-            npm ci
-            node start
-      - run: echo "hi"
+    - name: multiple command
+    - uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST_IP }}
+        username: ${{ secrets.HOST_USERNAME }}
+        password: ${{ secrets.HOST_PASSWORD }}
+        port: 22
+        script: |
+          curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
+          sudo yum install -y nodejs
+          cd /home/tmz2-proxy
+          npm ci
+          node start
     
-     
