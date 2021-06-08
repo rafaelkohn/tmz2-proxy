@@ -40,4 +40,6 @@ jobs:
             cd /home/tmz2-proxy
             npm ci
             node start
+      - run: echo "hi"
+    
      
