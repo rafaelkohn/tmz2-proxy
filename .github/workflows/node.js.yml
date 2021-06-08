@@ -13,18 +13,31 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: alias on_server=""
-    - run: npm i
-    - run: nohup npm start &1>&2 /dev/null
+    - run: alias on_server="sshpass -p ${{secrets.HOST_PASSWORD}} ${{secrets.HOST_USERNAME}}@${{secretes.HOST_IP}}"
+    - run: on_server rm -r tmz2-proxy
+    - run: on_server mkdir tmz2-proxy
+    - run: sshpass -p ${{secrets.HOST_PASSWORD}} scp -r . api-user@20.101.43.243:/home/tmz2-proxy
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: multiple command
+      - uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST_IP }}
+          username: ${{ secrets.HOST_USERNAME }}
+          password: ${{ secrets.HOST_PASSWORD }}
+          port: 22
+          script: |
+            curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
+            sudo yum install -y nodejs
+            cd /home/tmz2-proxy
+            npm ci
+            node start
+     
