@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: alias on_server="sshpass -p ${{secrets.HOST_PASSWORD}} ${{secrets.HOST_USERNAME}}@${{secretes.HOST_IP}}"
+    - run: alias on_server="sshpass -p ${{secrets.HOST_PASSWORD}} ${{secrets.HOST_USERNAME}}@${{secrets.HOST_IP}}"
     - run: on_server rm -r tmz2-proxy
     - run: on_server mkdir tmz2-proxy
     - run: sshpass -p ${{secrets.HOST_PASSWORD}} scp -r . api-user@20.101.43.243:/home/tmz2-proxy
