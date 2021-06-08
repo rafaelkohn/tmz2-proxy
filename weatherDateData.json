@@ -1,0 +1,258 @@
+{
+  "dates": [
+    { "name": "New Year's Day", "date": "2020-01-01", "weekday": "Wednesday" },
+    {
+      "name": "World Wildlife Day",
+      "date": "2020-03-03",
+      "weekday": "Tuesday"
+    },
+    {
+      "name": "March Equinox",
+      "date": "2020-03-20",
+      "weekday": "Friday"
+    },
+    {
+      "name": "Mother's Day",
+      "date": "2020-03-21",
+      "weekday": "Saturday"
+    },
+    {
+      "name": "Easter",
+      "date": "2020-04-12",
+      "weekday": "Sunday"
+    },
+    {
+      "name": "Evacuation Day",
+      "date": "2020-04-17",
+      "observed": "2020-04-17",
+      "weekday": "Friday"
+    },
+    {
+      "name": "Orthodox Easter",
+      "date": "2020-04-19",
+      "weekday": "Sunday"
+    },
+    {
+      "name": "Labor Day",
+      "date": "2020-05-01",
+      "weekday": "Friday"
+    },
+    {
+      "name": "Martyrs' Day",
+      "date": "2020-05-06",
+      "weekday": "Wednesday"
+    },
+    {
+      "name": "Festival of Breaking the Fast",
+      "date": "2020-05-23",
+      "weekday": "Saturday"
+    },
+    {
+      "name": "June Solstice",
+      "date": "2020-06-20",
+      "weekday": "Saturday"
+    },
+    {
+      "name": "Father's Day",
+      "date": "2020-06-21",
+      "weekday": "Sunday"
+    },
+    {
+      "name": "International Asteroid Day",
+      "date": "2020-06-30",
+      "weekday": "Tuesday"
+    },
+    {
+      "name": "Nelson Mandela International Day",
+      "date": "2020-07-18",
+      "weekday": "Saturday"
+    },
+    {
+      "name": "Feast of the Sacrifice",
+      "date": "2020-07-30",
+      "weekday": "Thursday"
+    },
+    {
+      "name": "Islamic New Year's Day",
+      "date": "2020-08-19",
+      "weekday": "Wednesday"
+    },
+    {
+      "name": "September Equinox",
+      "date": "2020-09-22",
+      "weekday": "Tuesday"
+    },
+    {
+      "name": "October Liberatory War",
+      "date": "2020-10-06",
+      "weekday": "Tuesday"
+    },
+    {
+      "name": "Birth of the Prophet",
+      "date": "2020-10-28",
+      "weekday": "Wednesday"
+    },
+    {
+      "name": "December Solstice",
+      "date": "2020-12-21",
+      "weekday": "Monday"
+    },
+    {
+      "name": "Christmas Eve",
+      "date": "2020-12-24",
+      "weekday": "Thursday"
+    },
+    {
+      "name": "Christmas Day",
+      "date": "2020-12-25",
+      "weekday": "Friday"
+    },
+    {
+      "name": "New Year's Eve",
+      "date": "2020-12-31",
+      "weekday": "Thursday"
+    }
+  ],
+  "temp": [
+    {
+      "temp": 296.59,
+      "feels_like": 296.35,
+      "temp_min": 292.75,
+      "temp_max": 297.36,
+      "pressure": 1012,
+      "humidity": 52,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 270.59,
+      "feels_like": 270.35,
+      "temp_min": 265.75,
+      "temp_max": 277.36,
+      "pressure": 1012,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    }
+  ]
+}

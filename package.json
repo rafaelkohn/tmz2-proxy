@@ -1,0 +1,16 @@
+{
+  "name": "tmz2-proxy",
+  "version": "1.0.0",
+  "description": "proxy to the world wide web",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
