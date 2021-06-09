@@ -1,0 +1,42 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: alias on_server="sshpass -p ${{secrets.HOST_PASSWORD}} ${{secrets.HOST_USERNAME}}@${{secrets.HOST_IP}}"
+    - run: on_server rm -r tmz2-proxy
+    - run: on_server mkdir tmz2-proxy
+    - run: sshpass -p ${{secrets.HOST_PASSWORD}} scp -r . api-user@20.101.43.243:/home/tmz2-proxy
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: multiple command
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST_IP }}
+        username: ${{ secrets.HOST_USERNAME }}
+        password: ${{ secrets.HOST_PASSWORD }}
+        port: 22
+        script: |
+          curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
+          sudo yum install -y nodejs
+          cd /home/tmz2-proxy
+          npm ci
+          node start
+    
