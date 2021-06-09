@@ -1,256 +1,255 @@
 {
   "dates": [
-    { "name": "New Year's Day", "date": "2020-01-01", "weekday": "Wednesday" },
+    { "name": "New Year's Day", "date": "2021-01-01", "weekday": "Wednesday" },
     {
       "name": "World Wildlife Day",
-      "date": "2020-03-03",
+      "date": "2021-03-03",
       "weekday": "Tuesday"
     },
     {
       "name": "March Equinox",
-      "date": "2020-03-20",
+      "date": "2021-03-20",
       "weekday": "Friday"
     },
     {
       "name": "Mother's Day",
-      "date": "2020-03-21",
+      "date": "2021-03-21",
       "weekday": "Saturday"
     },
     {
       "name": "Easter",
-      "date": "2020-04-12",
+      "date": "2021-04-12",
       "weekday": "Sunday"
     },
     {
       "name": "Evacuation Day",
-      "date": "2020-04-17",
-      "observed": "2020-04-17",
+      "date": "2021-04-17",
       "weekday": "Friday"
     },
     {
       "name": "Orthodox Easter",
-      "date": "2020-04-19",
+      "date": "2021-04-19",
       "weekday": "Sunday"
     },
     {
       "name": "Labor Day",
-      "date": "2020-05-01",
+      "date": "2021-05-01",
       "weekday": "Friday"
     },
     {
       "name": "Martyrs' Day",
-      "date": "2020-05-06",
+      "date": "2021-05-06",
       "weekday": "Wednesday"
     },
     {
       "name": "Festival of Breaking the Fast",
-      "date": "2020-05-23",
+      "date": "2021-05-23",
       "weekday": "Saturday"
     },
     {
       "name": "June Solstice",
-      "date": "2020-06-20",
+      "date": "2021-06-20",
       "weekday": "Saturday"
     },
     {
       "name": "Father's Day",
-      "date": "2020-06-21",
+      "date": "2021-06-21",
       "weekday": "Sunday"
     },
     {
       "name": "International Asteroid Day",
-      "date": "2020-06-30",
+      "date": "2021-06-30",
       "weekday": "Tuesday"
     },
     {
       "name": "Nelson Mandela International Day",
-      "date": "2020-07-18",
+      "date": "2021-07-18",
       "weekday": "Saturday"
     },
     {
       "name": "Feast of the Sacrifice",
-      "date": "2020-07-30",
+      "date": "2021-07-30",
       "weekday": "Thursday"
     },
     {
       "name": "Islamic New Year's Day",
-      "date": "2020-08-19",
+      "date": "2021-08-19",
       "weekday": "Wednesday"
     },
     {
       "name": "September Equinox",
-      "date": "2020-09-22",
+      "date": "2021-09-22",
       "weekday": "Tuesday"
     },
     {
       "name": "October Liberatory War",
-      "date": "2020-10-06",
+      "date": "2021-10-06",
       "weekday": "Tuesday"
     },
     {
       "name": "Birth of the Prophet",
-      "date": "2020-10-28",
+      "date": "2021-10-28",
       "weekday": "Wednesday"
     },
     {
       "name": "December Solstice",
-      "date": "2020-12-21",
+      "date": "2021-12-21",
       "weekday": "Monday"
     },
     {
       "name": "Christmas Eve",
-      "date": "2020-12-24",
+      "date": "2021-12-24",
       "weekday": "Thursday"
     },
     {
       "name": "Christmas Day",
-      "date": "2020-12-25",
+      "date": "2021-12-25",
       "weekday": "Friday"
     },
     {
       "name": "New Year's Eve",
-      "date": "2020-12-31",
+      "date": "2021-12-31",
       "weekday": "Thursday"
     }
   ],
   "temp": [
     {
-      "temp": 296.59,
-      "feels_like": 296.35,
-      "temp_min": 292.75,
-      "temp_max": 297.36,
+      "temp": 96.59,
+      "feels_like": 96.35,
+      "temp_min": 92.75,
+      "temp_max": 97.36,
       "pressure": 1012,
       "humidity": 52,
       "sea_level": 1012,
       "grnd_level": 924
     },
     {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
+      "temp": 60.59,
+      "feels_like": 60.35,
+      "temp_min": 60.75,
+      "temp_max": 60.36,
       "pressure": 1012,
       "humidity": 30,
       "sea_level": 1012,
       "grnd_level": 924
     },
     {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
+      "temp": 70.59,
+      "feels_like": 70.35,
+      "temp_min": 65.75,
+      "temp_max": 77.36,
+      "pressure": 900,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 100.59,
+      "feels_like": 100.35,
+      "temp_min": 100.75,
+      "temp_max": 100.36,
+      "pressure": 1012,
+      "humidity": 80,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 70.59,
+      "feels_like": 70.35,
+      "temp_min": 65.75,
       "temp_max": 277.36,
+      "pressure": 900,
+      "humidity": 30,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 51.59,
+      "feels_like": 51.35,
+      "temp_min": 51.75,
+      "temp_max": 41.36,
+      "pressure": 1012,
+      "humidity": 15,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 90.59,
+      "feels_like": 90.35,
+      "temp_min": 90.75,
+      "temp_max": 90.36,
+      "pressure": 1024,
+      "humidity": 40,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 60.59,
+      "feels_like": 60.35,
+      "temp_min": 60.75,
+      "temp_max": 60.36,
+      "pressure": 1012,
+      "humidity": 97,
+      "sea_level": 1012,
+      "grnd_level": 924
+    },
+    {
+      "temp": 80.59,
+      "feels_like": 80.35,
+      "temp_min": 75.75,
+      "temp_max": 85.36,
       "pressure": 1012,
       "humidity": 30,
       "sea_level": 1012,
       "grnd_level": 924
     },
     {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
+      "temp": 68.59,
+      "feels_like": 68.35,
+      "temp_min": 63.75,
+      "temp_max": 68.36,
       "pressure": 1012,
       "humidity": 30,
       "sea_level": 1012,
       "grnd_level": 924
     },
     {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
+      "temp": 70.59,
+      "feels_like": 70.35,
+      "temp_min": 65.75,
+      "temp_max": 77.36,
       "pressure": 1012,
       "humidity": 30,
       "sea_level": 1012,
       "grnd_level": 924
     },
     {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
+      "temp": 70.59,
+      "feels_like": 70.35,
+      "temp_min": 65.75,
+      "temp_max": 77.36,
       "pressure": 1012,
-      "humidity": 30,
+      "humidity": 100,
       "sea_level": 1012,
       "grnd_level": 924
     },
     {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
+      "temp": 70.59,
+      "feels_like": 70.35,
+      "temp_min": 65.75,
+      "temp_max": 77.36,
       "pressure": 1012,
-      "humidity": 30,
+      "humidity": 70,
       "sea_level": 1012,
       "grnd_level": 924
     },
     {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
+      "temp": 70.59,
+      "feels_like": 70.35,
+      "temp_min": 65.75,
+      "temp_max": 77.36,
       "pressure": 1012,
-      "humidity": 30,
-      "sea_level": 1012,
-      "grnd_level": 924
-    },
-    {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
-      "pressure": 1012,
-      "humidity": 30,
-      "sea_level": 1012,
-      "grnd_level": 924
-    },
-    {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
-      "pressure": 1012,
-      "humidity": 30,
-      "sea_level": 1012,
-      "grnd_level": 924
-    },
-    {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
-      "pressure": 1012,
-      "humidity": 30,
-      "sea_level": 1012,
-      "grnd_level": 924
-    },
-    {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
-      "pressure": 1012,
-      "humidity": 30,
-      "sea_level": 1012,
-      "grnd_level": 924
-    },
-    {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
-      "pressure": 1012,
-      "humidity": 30,
-      "sea_level": 1012,
-      "grnd_level": 924
-    },
-    {
-      "temp": 270.59,
-      "feels_like": 270.35,
-      "temp_min": 265.75,
-      "temp_max": 277.36,
-      "pressure": 1012,
-      "humidity": 30,
+      "humidity": 80,
       "sea_level": 1012,
       "grnd_level": 924
     }

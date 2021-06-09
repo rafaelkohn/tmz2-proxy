@@ -1,117 +1,117 @@
   [
        {     "name": "New Year's Day",
-            "date": "2020-01-01",
+            "date": "2021-01-01",
             "weekday": "Wednesday"
         },
         {
             "name": "World Wildlife Day",
-            "date": "2020-03-03",
+            "date": "2021-03-03",
             "weekday": "Tuesday"
         },
         {
             "name": "March Equinox",
-            "date": "2020-03-20",
+            "date": "2021-03-20",
             "weekday":"Friday"
         },
         {
             "name": "Mother's Day",
-            "date": "2020-03-21",
+            "date": "2021-03-21",
             "weekday": "Saturday"
         },
         {
             "name": "Easter",
-            "date": "2020-04-12",
+            "date": "2021-04-12",
             "weekday": "Sunday"
         },
         {
             "name": "Evacuation Day",
-            "date": "2020-04-17",
-            "observed": "2020-04-17",
+            "date": "2021-04-17",
+            "observed": "2021-04-17",
             "weekday": "Friday"
         },
         {
             "name": "Orthodox Easter",
-            "date": "2020-04-19",
+            "date": "2021-04-19",
             "weekday": "Sunday"
         },
         {
             "name": "Labor Day",
-            "date": "2020-05-01",
+            "date": "2021-05-01",
             "weekday": "Friday"
         },
         {
             "name": "Martyrs' Day",
-            "date": "2020-05-06",,
+            "date": "2021-05-06",,
             "weekday": "Wednesday"
         },
         {
             "name": "Festival of Breaking the Fast",
-            "date": "2020-05-23",
+            "date": "2021-05-23",
             "weekday": "Saturday"
         },
         {
             "name": "June Solstice",
-            "date": "2020-06-20",
+            "date": "2021-06-20",
             "weekday":"Saturday"
         },
         {
             "name": "Father's Day",
-            "date": "2020-06-21",
+            "date": "2021-06-21",
             "weekday":"Sunday"
         },
         {
             "name": "International Asteroid Day",
-            "date": "2020-06-30",
+            "date": "2021-06-30",
             "weekday":"Tuesday"
         },
         {
             "name": "Nelson Mandela International Day",
-            "date": "2020-07-18",
+            "date": "2021-07-18",
             "weekday":"Saturday"
         },
         {
             "name": "Feast of the Sacrifice",
-            "date": "2020-07-30",
+            "date": "2021-07-30",
             "weekday": "Thursday"
         },
         {
             "name": "Islamic New Year's Day",
-            "date": "2020-08-19",
+            "date": "2021-08-19",
             "weekday":"Wednesday"
         },
         {
             "name": "September Equinox",
-            "date": "2020-09-22",
+            "date": "2021-09-22",
             "weekday": "Tuesday
         },
         {
             "name": "October Liberatory War",
-            "date": "2020-10-06",
+            "date": "2021-10-06",
             "weekday":"Tuesday"
         },
         {
             "name": "Birth of the Prophet",
-            "date": "2020-10-28",
+            "date": "2021-10-28",
             "weekday":"Wednesday"
         },
         {
             "name": "December Solstice",
-            "date": "2020-12-21",
+            "date": "2021-12-21",
             "weekday":"Monday"
         },
         {
             "name": "Christmas Eve",
-            "date": "2020-12-24",
+            "date": "2021-12-24",
             "weekday": "Thursday"
         },
         {
             "name": "Christmas Day",
-            "date": "2020-12-25",
+            "date": "2021-12-25",
             "weekday": "Friday"
         },
         {
             "name": "New Year's Eve",
-            "date": "2020-12-31",
+            "date": "2021-12-31",
             "weekday": "Thursday"
         }
 		]
